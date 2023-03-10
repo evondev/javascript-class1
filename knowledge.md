@@ -3,8 +3,8 @@
 - _local scope_: code nằm bên trong `function`
 - _initializes_: khởi tạo giá trị cho biến
 - _block_: 1 vùng code nằm trong dấu {...}
-- _temporal dead zone_: khu vực nơi mà biến chưa thể truy cập vào được tới khi máy tính khởi tạo giá trị cho nó
-- _hoisting_: đề cập đến việc máy tính ưu tiên việc xử lý khai báo
+- _temporal dead zone_: khu vực nơi mà biến chưa thể truy cập vào được tới khi chương trình khởi tạo giá trị cho nó
+- _hoisting_: đề cập đến việc chương trình ưu tiên việc xử lý khai báo
 - _var_: bị hoisting, JS gán cho nó giá trị mặc định là `undefined`
 - _let_ _const_: không bị hoisting, JS không gán giá trị mặc định
 - _string_: chuỗi, thường nằm trong dấu nháy đơn, đôi, backticks
