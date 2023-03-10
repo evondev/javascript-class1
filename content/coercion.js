@@ -1,14 +1,14 @@
 {
   /*
-  true + false
-  12 / "6"
-  "number" + 15 + 3
-  15 + 3 + "number"
-  "foo" + + "bar"
-  'true' == true
-  false == 'false'
-  null == ''
-  !!"false" == !!"true"
+  true + false -> Number(true) + Number(false) -> 1 + 0 -> 1
+  12 / "6" -> 12 / Number("6") -> 12 / 6 -> 2
+  "number" + 15 + 3 -> ("number" + 15) + 3 -> "number" + "15" -> "number15" + 3 -> "number15" + "3" -> "number153"
+  15 + 3 + "number" -> 18 + "number" -> "18" + "number" -> "18number"
+  "foo" + + "bar" -> "foo" + NaN -> "foo" + "NaN" -> "fooNaN"
+  'true' == true -> Number('true') == Number(true) -> NaN == 1 -> false
+  false == 'false' -> Number(false) == Number('false') -> 0 == NaN -> false
+  null == '' -> false
+  !!"false" == !!"true" -> true == true -> true
+  +"123s" -> NaN
 */
 }
-console.log(Number(new Date(0)));

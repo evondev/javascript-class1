@@ -9,3 +9,27 @@
 - _let_ _const_: không bị hoisting, JS không gán giá trị mặc định
 - _string_: chuỗi, thường nằm trong dấu nháy đơn, đôi, backticks
 - Có nhiều phương thức để xử lý chuỗi(tham khảo **MDN**), các phương thức có thể nối nhau để xử lý 1 tác vụ gì đó.
+- _typeof_: dùng để kiểm tra kiểu dữ liệu của biến hoặc của giá trị
+- Khi khai báo biến với `let` hoặc `var` mà không gán giá trị gì cho nó thì mặc định sẽ là `undefined`
+- falsy values: false, 0, "", NaN, null, undefined
+- truthy values: không phải những giá trị truthy
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+- Arithmetic Operators: + - \* / () % ++ --
+- Comparison Operators: > < >= <= ==(loose equality: doesn’t compare the data types) vs ===(strict equality) -> Boolean
+- Logical Operators: && || !
+- Assignment Operators: = += -= \*= /=
+- count++: nó sẽ gán trước và tăng giá trị sau
+- ++count: nó sẽ tăng trước và gán sau
+- Sử dụng `Boolean(value)` hoặc `!!value` để convert value sang kiểu dữ liệu là boolean(true hoặc false)
+- Khi so sánh chuỗi với số sử dụng 2 dấu =(==) thì chuỗi(string) sẽ được convert sang number(số), nếu chuỗi rỗng thì nó sẽ là 0
+- đúng(truthy values) và(&&) đúng -> đúng, đúng và sai(falsy values) -> sai, sai và sai -> sai
+- đúng hoặc đúng -> đúng, sai hoặc sai -> sai, đúng hoặc sai -> đúng
+- Khi so sánh với NaN luôn trả ra `false`, thậm chí NaN cũng không bằng chính nó
+- +"333" nó sẽ convert sang number(333)
+- `_type coercion_` là tiến trình chuyển đổi giá trị từ kiểu này sang kiểu khác
+- explicit: Number, Boolean, String conversion
+- string(+), boolean(|| && !), number conversion(+ - \* / % > < <= >= | & ^ ~ ==)
+- Khi thực hiện việc chuyển đổi (type coercion) nếu có toán tử dấu cộng(+) với vế có chuỗi(string) thì nó sẽ convert sang **string**
+- Nếu có toán tử dấu(+ - \* / % > < <= >= | & ^ ~ ==) thì nó sẽ convert sang **number**
+- Nếu có toán tử logical(|| && !) thì nó sẽ convert sang **boolean**
+- null chỉ bằng null hoặc undefined khi sử dụng 2 dấu bằng(==)

@@ -33,8 +33,9 @@
 - int: 5
 - float(decimal): 9.5
 - NaN: Not a Number
-- typeof NaN is `number`
+- `typeof` NaN is `number`
 - Boolean: `true` or `false`
+- Falsy values: false, 0, "", '', ``, null, undefined, NaN
 - typeof null is `object`
 - value: `null`
 - Null is an assignment value
@@ -42,13 +43,12 @@
 - typeof undefined is `undefined`
 - A variable that has not been assigned a value
   is `undefined`.
+- _Number Methods_
 - _Operations_
 - Arithmetic Operators: + - \* / () % ++ --
 - Comparison Operators: > < >= <= ==(loose equality: doesn’t compare the data types) vs ===(strict equality) -> Boolean
 - Logical Operators: && || !
 - Assignment Operators: = += -= \*= /=
-- _Number Methods_
-- Falsy values: false, 0, "", '', ``, null, undefined, NaN
 - _If else_
 - _Switch case_
 - _Ternary operator_
@@ -86,6 +86,8 @@
 - Rest parameter
 
 # Value & Reference
+
+- == vs ===
 
 # DOM
 
