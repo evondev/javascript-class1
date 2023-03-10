@@ -6,7 +6,7 @@
 - Tham khảo MDN ⭐️
 - Cài đặt extensions
 - Thiết lập dự án
-  **Variables**
+- \_Variables
 - _Naming convention_: unique, should not be JS keyword, first character must be a letter, underscore or dollar sign
 - _const_, _let_: uninitialized
 - _var_: undefined
@@ -14,86 +14,88 @@
 - _temporal dead zone_: is the area of a `block` where a variable is inaccessible until the moment the computer completely `initializes` it with a value. `ReferenceError`
 - _hoisting_: refers to JavaScript giving higher precedence to the declaration of variables, classes, and functions during a program’s execution, makes the computer process declarations before any other code.
 - Ví dụ
-  **Data types**
+- Data types
 - Primitive: Number, String, Boolean, Null, Undefined - “primitive” because their values can contain only a single thing
 - Non-Primitive: Object, Array, RegExp
-  **Comment**
+- Comment
 - Single line
 - Multi line
-  **String**
+- String
 - single quote, double quote, backticks, special characters
 - String Methods
   -> variable, hoisting, temporal dead zone, naming convention, string
 
-# Buổi 2: Logic & Control Flow
+# Logic & Control Flow
 
-**Number**
-
-- int, decimal(float)
-- Operations
-- Arithmetic Operators: + - \* / () % ++ --
-- Comparison Operators: > < >= <= ==(loose equality: doesn’t compare the data types) vs ===(strict equality)
-- Logical Operators: && || ! !!
-- Assignment Operators: = += -= \*= /=
-- Number Methods
-- **Boolean**
-- `true` or `false`
-  **Null**
+- Giải bài tập buổi 1
+- Ôn lại kiến thức buổi 1
+- _Number_
+- int: 5
+- float(decimal): 9.5
+- NaN: Not a Number
+- typeof NaN is `number`
+- Boolean: `true` or `false`
 - typeof null is `object`
 - value: `null`
+- Null is an assignment value
 - use null to assign an “empty” or “unknown” value to a variable.
-  **Undefined**
 - typeof undefined is `undefined`
 - A variable that has not been assigned a value
   is `undefined`.
-  **Falsy values**
+- _Operations_
+- Arithmetic Operators: + - \* / () % ++ --
+- Comparison Operators: > < >= <= ==(loose equality: doesn’t compare the data types) vs ===(strict equality) -> Boolean
+- Logical Operators: && || !
+- Assignment Operators: = += -= \*= /=
+- _Number Methods_
+- Falsy values: false, 0, "", '', ``, null, undefined, NaN
+- _If else_
+- _Switch case_
+- _Ternary operator_
+- `_type coercion_`: is the process of converting value from one type to another
+- explicit, implicit
+- string(+), boolean(|| && !), number conversion(+ - \* / % > < <= >= | & ^ ~ ==)
 
-- false, 0, "", '', ``, null, undefined, NaN
-- [] is not falsy
-
-**If Else**
-
-**Switch case**
-
-**Ternary operator**
-
-# Buổi 3: Functions
+# Functions
 
 - name
 - parameters vs arguments
 - normal vs arrow
 - callback
 - return keyword
-- closure
+- execution context
+- `closure`
 - hoisting
+- declaration vs expression
+- callback hell
 
-# Buổi 4: Array & Loop
+# Array
 
 - _Array_
-- _for_
-- _while_
 - Destructuring
 - Optional chaining
 - Rest parameter
 
-# Buổi 5: Object
+# Loop
+
+# Object
 
 - _Object_
 - Destructuring
 - Optional chaining
 - Rest parameter
 
-# Buổi 6: Value & Reference
+# Value & Reference
 
-# Buổi 7+8: DOM
+# DOM
 
 - DOM
 - Events
 - Intersection Observer
 
-# Buổi 9+10: Class, New, This
+# Class, New, This
 
-# Buổi 10+11: Asynchronous
+# Asynchronous
 
 - Callback hell
 - Promise
@@ -102,7 +104,7 @@
 - Cors
 - fetch & axios
 
-# Buổi 11
+# Other
 
 - Date
 - Regex
@@ -110,7 +112,7 @@
 - Set
 - Generator function
 
-# Buổi 12+13: Tricky concepts
+# Tricky concepts
 
 - _this_
 - _prototype_
@@ -121,3 +123,5 @@
 - _event loop_
 - _type coercion_
 - NaN vs Number.isNaN
+- When a function returns a function, that is when the concept of closures becomes more relevant. The returned function has access to variables that are not in the global scope, but they solely exist in its closure.
+- Whenever you declare a new function and assign it to a variable, you store the function definition, as well as a closure. The closure contains all the variables that are in scope at the time of creation of the function. It is analogous to a `backpack`. A function definition comes with a little backpack. And in its pack it stores all the variables that were in scope at the time that the function definition was created.

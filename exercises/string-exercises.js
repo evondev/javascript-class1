@@ -10,3 +10,12 @@ const newStr = `javascript is awesome`;
 // 4.
 const lastStr = "evondev is awesome";
 // expected: awesome is evondev
+// 5. Explain these code with your experience with TDZ and hoisting
+{
+  let teacher = "evondev";
+  const teacherLesson = function () {
+    console.log(teacher);
+    const teacher = "tran anh tuan";
+  };
+  teacherLesson();
+}
