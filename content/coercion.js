@@ -10,5 +10,6 @@
   null == '' -> false
   !!"false" == !!"true" -> true == true -> true
   +"123s" -> NaN
+  {} + {} + [] + []
 */
 }
