@@ -58,16 +58,24 @@
 
 # Functions
 
+- intro
+- declaration
 - name
 - parameters vs arguments
-- normal vs arrow
+- normal function vs arrow function
 - callback
 - return keyword
-- execution context
-- `closure`
-- hoisting
 - declaration vs expression
-- callback hell
+- hoisting
+- scope
+- execution context 🤯
+- call stack
+- calling context: global or local execution context 🤯
+- using local context
+- using global context
+- function return function
+- closure 🤯
+- Whenever you declare a new function and assign it to a variable, you store the function definition, as well as a closure. The closure contains all the variables that are in scope at the time of creation of the function. It is analogous to a `backpack`.
 
 # Array
 
@@ -75,8 +83,11 @@
 - Destructuring
 - Optional chaining
 - Rest parameter
-
-# Loop
+- for loop
+- while
+- do while
+- break continue
+- clone
 
 # Object
 
@@ -84,9 +95,14 @@
 - Destructuring
 - Optional chaining
 - Rest parameter
+- Object literal
+- Function constructor
+- This
 
 # Value & Reference
 
+- shallow clone
+- deep clone
 - == vs ===
 
 # DOM
@@ -95,7 +111,7 @@
 - Events
 - Intersection Observer
 
-# Class, New, This
+# Class
 
 # Asynchronous
 
@@ -120,10 +136,5 @@
 - _prototype_
 - _call, apply, bind_
 - _recursion_
-- _execution context_
 - _call stack_
 - _event loop_
-- _type coercion_
-- NaN vs Number.isNaN
-- When a function returns a function, that is when the concept of closures becomes more relevant. The returned function has access to variables that are not in the global scope, but they solely exist in its closure.
-- Whenever you declare a new function and assign it to a variable, you store the function definition, as well as a closure. The closure contains all the variables that are in scope at the time of creation of the function. It is analogous to a `backpack`. A function definition comes with a little backpack. And in its pack it stores all the variables that were in scope at the time that the function definition was created.

@@ -33,3 +33,4 @@
 - Nếu có toán tử dấu(+ - \* / % > < <= >= | & ^ ~ ==) thì nó sẽ convert sang **number**
 - Nếu có toán tử logical(|| && !) thì nó sẽ convert sang **boolean**
 - null chỉ bằng null hoặc undefined khi sử dụng 2 dấu bằng(==)
+- `NaN` thực hiện toán tử với số thì trả ra kết quả là `NaN`
