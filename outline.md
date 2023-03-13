@@ -63,7 +63,7 @@
 - name
 - parameters vs arguments
 - normal function vs arrow function
-- callback
+- callback -> callback hell
 - return keyword
 - declaration vs expression
 - hoisting

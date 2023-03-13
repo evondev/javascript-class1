@@ -34,3 +34,11 @@
 - Nếu có toán tử logical(|| && !) thì nó sẽ convert sang **boolean**
 - null chỉ bằng null hoặc undefined khi sử dụng 2 dấu bằng(==)
 - `NaN` thực hiện toán tử với số thì trả ra kết quả là `NaN`
+- Nếu so sánh chuỗi với chuỗi thì không convert sang gì cả
+- Khi gọi function(), nếu function không có `return` thì nó sẽ trả về là `undefined`
+- Tên function nên có ý nghĩa, dễ hiểu, việc đặt tên nên chuẩn như biến
+- `parameters` truyền vào function khi khai báo, không bắt buộc, tùy thuộc vào yêu cầu bài toán
+- `arguments` truyền vào function khi được gọi(invoke)
+- function được truyền vào function khác dưới dạng parameter gọi là `callback`
+- Khi gọi function(invoke) thì sẽ tạo ra `execution context`
+- Khi gọi function và đã return thì `local execution context` sẽ bị xóa, nghĩa là toàn bộ local variables không còn truy cập được nữa, ngoài trừ return value
