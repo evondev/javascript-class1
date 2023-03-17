@@ -79,28 +79,36 @@
 
 # Array
 
-- _Array_
+- declaration
+- index, length, random, undefined
+- Reference types don't hold values, they are a pointer to the value in memory.
+- array methods: map, forEach, sort, push, pop, shift, unshift, reduce, find, findIndex, some, every, concat, filter, reverse, slice, splice, join, at, fill, findLastIndex, flat, includes, lastIndexOf, from, toString, isArray,
+- Spread operator
 - Destructuring
-- Optional chaining
-- Rest parameter
-- for loop
+- Clone array shallow, deep
+- BTVN
+
+# Looooooooop
+
+- for
+- for of
 - while
 - do while
-- break continue
-- clone
+- break
+- continue
+- Use cases
 
 # Object
 
-- _Object_
+- Declaration
+- Methods: keys, values, entries, freeze, hasOwnProperty, assign, create
+- clone: shallow, deep
 - Destructuring
 - Optional chaining
 - Rest parameter
-- Object literal
-- Function constructor
 - This
-
-# Value & Reference
-
+- Function constructor
+- value vs referrences
 - shallow clone
 - deep clone
 - == vs ===
