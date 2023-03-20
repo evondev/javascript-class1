@@ -86,3 +86,5 @@
 - _reduce_ gom các phần tử trong mảng lại làm 1, thường gặp khi làm tính tổng các số trong mảng, hoặc nối chuỗi
 - _JSON.parse(JSON.stringify(originalList))_ dùng để sao chép một mảng phức tạp, có nhiều mảng lồng nhau
 - Sao chép mảng 1 cấp thì dùng Array.from, slice() hoặc spread operator
+
+# Loop

@@ -90,13 +90,14 @@
 
 # Looooooooop
 
+- Ôn lại kiến thức
+- Thực hành vài bài tập
 - for
 - for of
 - while
 - do while
 - break
 - continue
-- Use cases
 
 # Object
 
@@ -106,20 +107,17 @@
 - Destructuring
 - Optional chaining
 - Rest parameter
-- This
+- for in
 - Function constructor
-- value vs referrences
-- shallow clone
-- deep clone
-- == vs ===
+- `This` keyword
+
+# Class
 
 # DOM
 
 - DOM
 - Events
 - Intersection Observer
-
-# Class
 
 # Asynchronous
 
@@ -129,6 +127,7 @@
 - API
 - Cors
 - fetch & axios
+- event loop
 
 # Other
 
