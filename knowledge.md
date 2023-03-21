@@ -100,3 +100,5 @@
 - có nhiều cách giải quyết với vòng lặp for, tùy thuộc vào tư duy mỗi người, có thể luyện ở leetcode hoặc freecodecamp
 - trong vòng lặp for, initialization, condition và afterthought là không bắt buộc
 - nên có điều kiện dừng để tránh vòng lặp vô tận(crash máy)
+
+# Object
