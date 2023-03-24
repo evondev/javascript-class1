@@ -102,6 +102,9 @@
 # Object
 
 - Declaration
+- Access, adding, update properties
+- Dot notation vs square bracket notation
+- Method
 - Methods: keys, values, entries, freeze, hasOwnProperty, assign, create
 - clone: shallow, deep
 - Destructuring
@@ -113,13 +116,20 @@
 
 # Class
 
-# DOM
+- Prototype
+- Class
+- Date
+- Regex
+- call, apply, bind
+- nested method `this`
+
+# DOM(2)
 
 - DOM
 - Events
 - Intersection Observer
 
-# Asynchronous
+# Asynchronous(2)
 
 - Callback hell
 - Promise
@@ -131,8 +141,6 @@
 
 # Other
 
-- Date
-- Regex
 - Map
 - Set
 - Generator function
@@ -141,7 +149,6 @@
 
 - _this_
 - _prototype_
-- _call, apply, bind_
 - _recursion_
 - _call stack_
 - _event loop_

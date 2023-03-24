@@ -102,3 +102,18 @@
 - nên có điều kiện dừng để tránh vòng lặp vô tận(crash máy)
 
 # Object
+
+- Truy xuất thuộc tính trong object thì có 2 cách dot notation(obj.name) hoặc square bracket notation(obj["name"])
+- Từ khóa `this` sử dụng trong method của object thì nó sẽ trỏ tới object đó
+- Arrow function không có `this` nên lưu ý khi sử dụng
+- Object.keys(obj) sẽ trả ra 1 mảng chứa các properties của object đó
+- Object.values(obj) sẽ trả ra 1 mảng chứa các value của object đó
+- Object.entries(obj) sẽ trả ra 1 mảng chứa các mảng nhỏ theo key và value của object
+- Object.freeze(obj) sẽ đóng băng object và object đó không thể thêm sửa hay xóa
+- obj.hasOwnProperty(property) kiểm tra xem object đó có chứa thuộc tính hay không -> boolean
+- Để sao chép object thì có thể dùng Object.assign({}, object), hoặc {...obj}
+- Để sao chép object nhiều cấp thì dùng tương tự array là JSON.parse(JSON.stringify(obj))
+- Truy xuất 1 thuộc tính không tồn tại trong object sẽ trả ra `undefined`(1 cấp)
+- Nếu cố gắng truy xuất thuộc tính 2 cấp mà không tồn tại thì sẽ bị lỗi TypeError
+- ?. Optional chaining sẽ kiểm tra thuộc tính có tồn tại hay không, nếu tồn tại thì nó sẽ chạy tiếp sang phải, không tồn tại thì trả ra kết quả
+- nullish coalescing: variable(value1) ?? value2: nếu value1 là `null` hoặc `undefined` thì nó sẽ lấy value2, ngược lại nó sẽ lấy value1
