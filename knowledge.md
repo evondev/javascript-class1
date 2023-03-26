@@ -45,6 +45,44 @@
 - `NaN` thực hiện toán tử với số thì trả ra kết quả là `NaN`
 - Nếu so sánh chuỗi với chuỗi thì không convert sang gì cả
 
+# String
+
+- _toUpperCase()_ -> biến chuỗi thành IN HOA
+- _toLowerCase()_ -> biến chuỗi thành in thường
+- _includes(value)_ -> kiểm tra chuỗi có chứa value hay không -> Boolean
+- _indexOf(value)_ -> trả ra vị trí index của value tìm thấy đầu tiên trong chuỗi, nếu ko tìm thấy sẽ trả ra -1
+- _lastIndexOf(value)_ -> tương tự indexOf nhưng nó sẽ lấy value tìm thấy cuối cùng trong chuỗi
+- _repeat(count)_ -> lặp lại số lần chuỗi
+- _replace(value1, value2)_ -> thay thế chuỗi từ value1 biến thành value2
+- _replaceAll(value1, value2)_ -> tương tự replace nhưng là thay thế hết thay vì chỉ 1 value như replace
+- _slice(start, end)_ -> dùng để sao chép chuỗi, nó sẽ lấy từ vị trí start tới end-1
+- _split(value)_ -> tách chuỗi thành mảng chứa các chuỗi nhỏ theo value truyền vào
+- _join(value)_ -> dùng để biến mảng thành chuỗi dựa vào value truyền vào, ngược lại với split
+- _reverse()_ -> đảo ngược mảng
+- _startsWith(value)_ -> kiểm tra chuỗi có bắt đầu với value không ? -> Boolean
+- _endsWith(value)_ -> kiểm tra chuỗi có kết thúc với value không ? -> Boolean
+- _concat(value)_ -> để nối chuỗi
+- _trim()_ -> loại bỏ khoảng trắng đầu cuối của chuỗi
+- _trimStart()_ -> loại bỏ khoảng trắng đầu chuỗi
+- _trimEnd()_ -> loại bỏ khoảng trắng cuối chuỗi
+- _substring(start, end)_ -> tương tự slice
+- _toString()_ -> convert giá trị thành chuỗi
+
+# Number
+
+- _Math.floor(number)_ -> làm tròn xuống
+- _Math.round(number)_ -> làm tròn gần nhất
+- _Math.ceil(number)_ -> làm tròn lên
+- _number.toFixed(count)_ -> làm tròn theo count thập phân
+- _Math.random()_ -> trả ra random từ 0 đến 1
+- _Math.abs(number)_ -> giá trị truyệt đối
+- _Math.pow(3, 2)_ -> căn bậc 2 của 3
+- Math.PI -> trả ra số PI
+- _Math.sqrt(number)_ -> căn bậc 2
+- _Math.trunc(number)_ -> trả ra số nguyên của number
+- _Math.sign(number)_ -> number lớn hơn 0 trả ra 1, ngược lại trả ra -1
+- _Math.floor(15.7784514 \* 100)_ / 100 -> trả ra decimal 2 số nhưng ko làm tròn như toFixed
+
 # Function
 
 - Khi gọi function(), nếu function không có `return` thì nó sẽ trả về là `undefined`
@@ -54,7 +92,7 @@
 - function được truyền vào function khác dưới dạng parameter gọi là `callback`
 - Khi gọi function(invoke) thì sẽ tạo ra `execution context`
 - Khi gọi function và đã return thì `local execution context` sẽ bị xóa, nghĩa là toàn bộ local variables không còn truy cập được nữa, ngoài trừ return value
-- Giá trị mặc định cho parameter trong function
+- Giá trị mặc định cho parameter trong function(age = 29)
 
 # Array
 
@@ -103,17 +141,17 @@
 
 # Object
 
-- Truy xuất thuộc tính trong object thì có 2 cách dot notation(obj.name) hoặc square bracket notation(obj["name"])
+- Truy xuất thuộc tính trong object thì có 2 cách dot notation(`obj.name`) hoặc square bracket notation(`obj["name"]`)
 - Từ khóa `this` sử dụng trong method của object thì nó sẽ trỏ tới object đó
 - Arrow function không có `this` nên lưu ý khi sử dụng
-- Object.keys(obj) sẽ trả ra 1 mảng chứa các properties của object đó
-- Object.values(obj) sẽ trả ra 1 mảng chứa các value của object đó
-- Object.entries(obj) sẽ trả ra 1 mảng chứa các mảng nhỏ theo key và value của object
-- Object.freeze(obj) sẽ đóng băng object và object đó không thể thêm sửa hay xóa
+- _Object.keys(obj)_ sẽ trả ra 1 mảng chứa các properties của object đó
+- _Object.values(obj)_ sẽ trả ra 1 mảng chứa các value của object đó
+- _Object.entries(obj)_ sẽ trả ra 1 mảng chứa các mảng nhỏ theo key và value của object
+- _Object.freeze(obj)_ sẽ đóng băng object và object đó không thể thêm sửa hay xóa
 - obj.hasOwnProperty(property) kiểm tra xem object đó có chứa thuộc tính hay không -> boolean
-- Để sao chép object thì có thể dùng Object.assign({}, object), hoặc {...obj}
-- Để sao chép object nhiều cấp thì dùng tương tự array là JSON.parse(JSON.stringify(obj))
+- Để sao chép object thì có thể dùng `Object.assign({}, object)`, hoặc `{...obj}`
+- Để sao chép object nhiều cấp thì dùng tương tự array là `JSON.parse(JSON.stringify(obj))`
 - Truy xuất 1 thuộc tính không tồn tại trong object sẽ trả ra `undefined`(1 cấp)
-- Nếu cố gắng truy xuất thuộc tính 2 cấp mà không tồn tại thì sẽ bị lỗi TypeError
-- ?. Optional chaining sẽ kiểm tra thuộc tính có tồn tại hay không, nếu tồn tại thì nó sẽ chạy tiếp sang phải, không tồn tại thì trả ra kết quả
-- nullish coalescing: variable(value1) ?? value2: nếu value1 là `null` hoặc `undefined` thì nó sẽ lấy value2, ngược lại nó sẽ lấy value1
+- Nếu cố gắng truy xuất thuộc tính 2 cấp mà không tồn tại thì sẽ bị lỗi _TypeError_
+- `?.` Optional chaining sẽ kiểm tra thuộc tính có tồn tại hay không, nếu tồn tại thì nó sẽ chạy tiếp sang phải, không tồn tại thì trả ra kết quả
+- nullish coalescing `variable(value1) ?? value2`: nếu value1 là `null` hoặc `undefined` thì nó sẽ lấy value2, ngược lại nó sẽ lấy value1

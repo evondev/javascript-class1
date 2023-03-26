@@ -114,20 +114,30 @@
 - Function constructor
 - `This` keyword
 
-# Class
+# DOM
 
-- Prototype
-- Class
-- Date
-- Regex
-- call, apply, bind
-- nested method `this`
-
-# DOM(2)
-
-- DOM
+- querySelector, querySelectorAll, getElementsByClassName, getGelementsByTagName, getElementById
+- get, set, remove, has attribute
+- textContent, innerText, innerHTML
+- add, remove, toggle class, className, classList
+- createElement, appendChild
+- cloneNode
+- hasChildNode
+- insertAdjacentText, insertAdjacentElement, insertAdjacentHTML
+- Traversing
+- offset (border)
+- client (non-border)
+- window
+- scroll
+- getBoundingClientRect
 - Events
-- Intersection Observer
+- NodeList vs HTML Collection
+- parentNode vs parentElement
+- title, head
+- insertBefore
+- replaceChild
+
+# Events
 
 # Asynchronous(2)
 
@@ -144,6 +154,12 @@
 - Map
 - Set
 - Generator function
+- Class
+- call, apply, bind
+- nested method `this`
+- Date
+- Regex
+- Intersection Observer
 
 # Tricky concepts
 
