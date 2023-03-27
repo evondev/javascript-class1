@@ -122,19 +122,17 @@
 - add, remove, toggle class, className, classList
 - createElement, appendChild
 - cloneNode
-- hasChildNode
-- insertAdjacentText, insertAdjacentElement, insertAdjacentHTML
+- hasChildNodes
+- insertAdjacentText, insertAdjacentElement, insertAdjacentHTML, insertBefore
 - Traversing
 - offset (border)
 - client (non-border)
 - window
 - scroll
 - getBoundingClientRect
-- Events
-- NodeList vs HTML Collection
+- NodeList vs HTMLCollection
 - parentNode vs parentElement
 - title, head
-- insertBefore
 - replaceChild
 
 # Events

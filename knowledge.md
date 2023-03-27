@@ -155,3 +155,9 @@
 - Nếu cố gắng truy xuất thuộc tính 2 cấp mà không tồn tại thì sẽ bị lỗi _TypeError_
 - `?.` Optional chaining sẽ kiểm tra thuộc tính có tồn tại hay không, nếu tồn tại thì nó sẽ chạy tiếp sang phải, không tồn tại thì trả ra kết quả
 - nullish coalescing `variable(value1) ?? value2`: nếu value1 là `null` hoặc `undefined` thì nó sẽ lấy value2, ngược lại nó sẽ lấy value1
+
+# DOM
+
+- Document Object Model
+- querySelector -> truy vấn 1 node trong DOM, nếu có nhiều node thì nó sẽ lấy cái đầu tiên
+-
