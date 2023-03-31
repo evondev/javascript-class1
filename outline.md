@@ -137,7 +137,28 @@
 
 # Events
 
-# Asynchronous(2)
+- Form validation: submit, validate input
+-
+
+# Thực hành Events và DOM
+
+- Dropdown
+- Animate selection
+- Simple slider
+- Accordion
+- Modal
+- Tab
+- Popover
+- Autocomplete
+- Tooltip
+- Themes
+- Multiple checkboxes
+- Mouse move effect
+- Custom video player
+- Countdown
+- Calculate total times
+
+# Asynchronous
 
 - Callback hell
 - Promise
@@ -146,6 +167,8 @@
 - Cors
 - fetch & axios
 - event loop
+
+# Thực hành API
 
 # Other
 

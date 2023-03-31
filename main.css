@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #f62682;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.name {
+  padding: 10px 30px;
+  border: 1px solid #eee;
+  outline: none;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  margin: 20px auto;
+}
+.menu-item {
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+}
+.animate-bg {
+  background-color: #eee;
+  width: 0;
+  height: 0;
+  border-radius: 10px;
+  position: absolute;
+}
+.loading {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  z-index: 10;
+}

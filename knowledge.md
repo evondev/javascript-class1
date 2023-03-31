@@ -158,6 +158,39 @@
 
 # DOM
 
-- Document Object Model
-- querySelector -> truy vấn 1 node trong DOM, nếu có nhiều node thì nó sẽ lấy cái đầu tiên
--
+# Events
+
+## Click
+
+- event.stopPropagation() -> dùng để chặn vấn đề nổi bọt
+- event.preventDefault() -> dùng để chặn hành vi mặc định của 1 element nào đó
+- click -> nhấn
+- event.clientX -> trả ra tọa độ của event theo trục X
+- event.clientY -> trả ra tọa độ của event theo trục Y
+
+## Form
+
+- submit -> submit form, khi button có type là submit
+
+## Input
+
+- change -> khi sử dụng sự kiện này thì gõ vào nó sẽ ko lấy ngay giá trị, mà khi nhấn enter hoặc nhấn ra ngoài thì mới lấy được dữ liệu thông qua `event.target.value`
+- keydown -> giá trị (`event.target.value`) sẽ chạy sau 1 lần gõ
+- keyup -> gõ tới đâu lấy tới đó
+- keypress -> tương tự giống keydown
+- event.code đều có ngoại trừ sự kiện `change`
+- event.code dùng để dựa vào những nút chúng ta gõ vào để làm 1 việc gì đó, ví dụ chúng ta không cho phép dùng phím Enter
+- event.key và event.code trả ra tên
+- event.keyCode nó sẽ trả ra số
+- để chặn hành vi mặc định trong `keypress` thì nên dùng `event.preventDefault`, nếu ko muốn tiếp cận code ở dưới nữa thì thêm `return;`
+- `event.preventDefault` không có tác dụng với `keyup`
+- input -> gõ tới đâu lấy tới đó như keyup, nhưng nó ko có event.keyCode, hoặc event.key
+- focus -> khi focus vào input
+- blur -> khi nhấn focus sau đó nhấn ra ngoài
+
+## Hover
+
+- mouseenter -> rê chuột vào phần tử, khá giống hover trong CSS
+- mouseleave -> rê chuột vào phần tử sau đó rê ra ngoài lại
+- mouseover -> giống mouseenter
+- mousemove -> di chuyển chuột ở element
