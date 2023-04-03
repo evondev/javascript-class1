@@ -187,3 +187,7 @@
   document.head.insertAdjacentHTML("beforeend", `<link href="abc.css"/>`);
   document.body.replaceChild(squareBox, document.querySelector(".item"));
 }
+{
+  // remove item
+  // item.parentNode.removeChild(item)
+}

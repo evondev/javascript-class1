@@ -135,40 +135,33 @@
 - title, head
 - replaceChild
 
-# Events
+# Click
 
-- Form validation: submit, validate input
--
-
-# Thực hành Events và DOM
-
-- Dropdown
-- Animate selection
-- Simple slider
+- Open Modal
 - Accordion
-- Modal
+- Dropdown
 - Tab
-- Popover
-- Autocomplete
+- Pagination
+- Slider
+- Password toggle
+- CRUD Todo List
+
+# Form
+
+- Form validation
+- Autocomplete search
+- Get form values
+- OTP
+
+## window document
+
+- Progressbar
+- Add attribute to link
+
+## Mouse
+
+- Animate bg
 - Tooltip
-- Themes
-- Multiple checkboxes
-- Mouse move effect
-- Custom video player
-- Countdown
-- Calculate total times
-
-# Asynchronous
-
-- Callback hell
-- Promise
-- Asynchronous
-- API
-- Cors
-- fetch & axios
-- event loop
-
-# Thực hành API
 
 # Other
 
@@ -176,11 +169,25 @@
 - Set
 - Generator function
 - Class
-- call, apply, bind
-- nested method `this`
 - Date
 - Regex
 - Intersection Observer
+- setTimeout
+- setInteral
+
+# Asynchronous
+
+- Callback hell
+- Promise: all, allSettled, race,
+- Asynchronous
+- API
+- Cors
+- fetch
+- axios
+- status code
+- try-catch-finally
+
+# Thực hành API
 
 # Tricky concepts
 
@@ -189,3 +196,4 @@
 - _recursion_
 - _call stack_
 - _event loop_
+- call, apply, bind
