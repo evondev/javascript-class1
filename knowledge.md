@@ -158,6 +158,11 @@
 
 # DOM
 
+- window.innerHeight sẽ trả ra viewport height
+- document.body.scrollHeight -> trả ra chiều cao của body bao gồm cả scroll
+- window.scrollY -> khoảng cách khi scroll theo chiều dọc
+- window.location -> 1 object chứa nhiều thông tin domain
+
 # Events
 
 ## Input
@@ -202,6 +207,7 @@
 ## Form
 
 - submit -> submit form, khi button có type là submit hoặc nhấn enter
+- this.elements['password'].value -> lấy giá trị của input có name là `password` trong form khi submit
 
 ## Hover
 

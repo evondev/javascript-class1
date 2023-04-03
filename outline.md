@@ -138,12 +138,12 @@
 # Click
 
 - Open Modal
+- Tab
+- Password toggle
 - Accordion
 - Dropdown
-- Tab
 - Pagination
 - Slider
-- Password toggle
 - CRUD Todo List
 
 # Form

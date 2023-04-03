@@ -1,6 +1,8 @@
 {
   // SELECTORS
   // 1. querySelector
+  const body = document.body;
+  const header1 = body.querySelector("#header1");
   const header = document.querySelector("#header");
   const item = document.querySelector(".item2");
   // 2. querySelectorAll
