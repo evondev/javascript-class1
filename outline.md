@@ -163,17 +163,12 @@
 - Animate bg
 - Tooltip
 
-# Other
+## Others
 
-- Map
-- Set
-- Generator function
-- Class
-- Date
-- Regex
-- Intersection Observer
 - setTimeout
-- setInteral
+- setInterval
+- Date
+- Intersection Observer
 
 # Asynchronous
 
@@ -197,3 +192,10 @@
 - _call stack_
 - _event loop_
 - call, apply, bind
+- Map
+- Set
+- Generator function
+- Class
+- Regex
+
+# Interview

@@ -241,3 +241,22 @@ body {
 .toast.is-open {
   transform: translate3d(0, 0, 0);
 }
+.stop-watch {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.stop-watch-btn {
+  padding: 15px;
+  width: 200px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: #2979ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+}
