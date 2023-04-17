@@ -222,18 +222,24 @@
 - CRUD
 - Axios
 
-# Tricky concepts
+# Other
 
-- _this_
-- _prototype_
-- _recursion_
-- _call stack_
-- _event loop_
 - call, apply, bind
 - Map
 - Set
 - Generator function
 - Class
 - Regex
+
+# Hard part
+
+- this
+- prototype
+- recursion
+- call stack
+- event loop
+- algorithms
+- data structure
+- object coercion
 
 # Interview
