@@ -274,3 +274,11 @@
 - Promise.race([p1,p2,p3]) -> promise nào nhanh nhất thì nó sẽ trả ra kết quả của promise đó cho dù promise rejected hay fullfilled
 - Promise.resolve
 - Promise.reject
+
+# Local storage - Session storage
+
+- Local storage nó sẽ lưu trên trình duyệt của người dùng
+- Session storage cũng tương tự local storage nhưng nó sẽ bị mất khi mình đóng trình duyệt
+- localStorage.setItem("key", JSON.stringify(value))
+- localStorage.getItem("key")
+- localStorage.removeItem("key")

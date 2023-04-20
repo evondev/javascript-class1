@@ -241,5 +241,10 @@
 - algorithms
 - data structure
 - object coercion
+- async
+- defer
+- module
+- other APIs
+- useful resources
 
 # Interview

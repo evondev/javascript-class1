@@ -64,3 +64,5 @@ span.special {
   background-image: linear-gradient(to right, #ff6bcb, #ffb86c);
   border: 5px solid black;
 } */
+@media screen and (max-width: 1023px) {
+}
