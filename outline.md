@@ -224,27 +224,26 @@
 
 # Other
 
+- https://www.instagram.com/inside.code/
+- Algorithms: Leetcode, HackerRank
+- Data Structure
+- LinkedIn
+- English Conversation: Mai Lam Crazy
+- this
 - call, apply, bind
-- Map
-- Set
-- Generator function
-- Class
 - Regex
+- Class
+- Recursion
+
+# Interview
 
 # Hard part
 
-- this
 - prototype
-- recursion
 - call stack
 - event loop
-- algorithms
-- data structure
 - object coercion
 - async
 - defer
 - module
-- other APIs
-- useful resources
-
-# Interview
+- Generator function
