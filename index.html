@@ -48,6 +48,32 @@
       <li class="list-item">List item</li>
     </ul>
     <!-- <button class="follow">Follow me</button> -->
-    <script src="./content/other.js"></script>
+    <!-- <script src="./content/utilities.js"></script> -->
+    <!-- <script src="./content/utilities.js"></script> -->
+    <!-- <script src="./content/utilities.js" type="module"></script>
+    <script type="module">
+      import { sum, minus } from "./content/utilities.js";
+      console.log(sum(8, 9));
+      console.log(minus(8, 9));
+    </script> -->
+    <!-- <script src="./content/other.js"></script> -->
+    <!-- <script src="./content/event-loop.js"></script> -->
+    <script>
+      const name = "evondev";
+      // console.log(name.hasOwnProperty());
+      function* welcome() {
+        while (true) {
+          yield "lagging";
+        }
+      }
+      // iterator {value: "hello"; done: false}
+      const w = welcome();
+      // console.log(w.next());
+      // console.log(w.next());
+      // console.log(w.next());
+      // console.log(w.next());
+      // console.log(w.next());
+    </script>
+    <script src="./content/Map.js"></script>
   </body>
 </html>

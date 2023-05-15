@@ -235,15 +235,26 @@
 - Class
 - Recursion
 
-# Interview
-
 # Hard part
 
-- prototype
-- call stack
-- event loop
-- object coercion
 - async
 - defer
-- module
+- module: ES6 modules - CommonJS
+- event loop
+
+```js
+for (var i = 1; i <= 5; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 0);
+}
+```
+
+- Set
+- Map
 - Generator function
+- prototype
+- Canvas
+- Face Detection
+- Web Speech
+- Video

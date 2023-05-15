@@ -336,3 +336,29 @@ const regex = /[abc]/gim;
 - r\* -> không hoặc nhiều chữ `r` đều được
 
 # Recursion
+
+# Other
+
+- Algorithms & Data Structure: https://neetcode.io/roadmap
+- Notion: Income, Expense, Habit, Daily Todo, Learn Javascript Planner
+- English conversation
+- Chrome extension: EJoy English
+- Git, Github
+- async
+
+```js
+<script src="" async></script>
+<script src=""></script>
+```
+
+- defer
+
+```js
+<script src="jquery.min.js" defer></script>
+<script src="app.js"></script>
+```
+
+- Canvas: ChrisCourse
+- new Number(10) -> Number prototype -> Object prototype
+- new Boolean -> Boolean prototype -> Object prototype
+- new String -> String prototype -> Object prototype
